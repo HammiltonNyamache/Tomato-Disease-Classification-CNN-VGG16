@@ -58,7 +58,7 @@ In Colab, navigate to Runtime > Change runtime type and select T4 GPU as the har
 4. **Execute**:
 Run the notebook cells sequentially to execute data preprocessing, model training (set to 15 epochs), and performance evaluation.
 
-##Future Work
+## Future Work
 Extended Training & Early Stopping: Retrain the VGG16 model for 50-100 epochs with an Early Stopping callback to reach peak convergence.
 
 1. **Fine-Tuning**: Unfreeze the final convolutional layers of the pre-trained VGG16 base and retrain with a very low learning rate to adapt the feature detectors specifically to tomato leaves.
