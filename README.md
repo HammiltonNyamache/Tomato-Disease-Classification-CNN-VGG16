@@ -6,7 +6,7 @@ Tomato cultivation is a vital component of Kenya's agricultural sector, yet crop
 This project addresses this challenge by developing and evaluating deep learning models for automated disease classification from leaf images. The goal is to provide a proof-of-concept for a low-cost, scalable, and readily available diagnostic tool that empowers small-scale farmers to make informed decisions about disease control measures.
 
 ## Key Features
-* **Dataset**: Utilizes the "Tomato Disease Multiple Sources" dataset, a diverse collection of over 20,000 images, including data from laboratory settings and real-world field conditions.
+* **Dataset**: [Tomato Disease Multiple Sources (Kaggle)](https://www.kaggle.com/datasets/cookiefinder/tomato-disease-multiple-sources/data) - Utilizes a diverse collection of over 20,000 images, including data from laboratory settings and real-world field conditions.
 * **Classification Scope**: Categorizes images into 11 distinct classes, covering 10 common diseases (e.g., Early Blight, Late Blight, Tomato Yellow Leaf Curl Virus) and one healthy category.
 * **Comparative Analysis**: Establishes a performance baseline using a custom-built **Convolutional Neural Network (CNN)** and compares it against a more advanced **VGG16 Transfer Learning** model.
 * **Agricultural Impact**: Lays the groundwork for deploying lightweight, offline models on mobile applications to support Kenyan farmers in precision agriculture.
