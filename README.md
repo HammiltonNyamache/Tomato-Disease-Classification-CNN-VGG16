@@ -37,15 +37,15 @@ The experimental results demonstrated a stark performance difference, conclusive
 
 **Model 1: Custom CNN**
 While the Custom CNN exhibited higher peak accuracy metrics, its learning curves showed significant instability and signs of overfitting—essentially memorizing the training images.
-![Custom CNN Accuracy and Loss](images/model_1_accuracy.png)
+![Custom CNN Accuracy and Loss](images/model1.png)
 
 **Model 2: VGG16 Transfer Learning**
 In contrast, the VGG16 model showed a stable and consistent learning progression, achieving a superior validation accuracy of ~78% even with a limited training duration of only 15 epochs.
-![VGG16 Accuracy and Loss](images/model_2_accuracy.png)
+![VGG16 Accuracy and Loss](images/model2.png)
 
 **Model Comparison**
 The direct comparison illustrates the superior stability and generalization capability of the pre-trained VGG16 feature extractors over the custom architecture.
-![Model Comparison Curves](images/model_comparison.png)
+![Model Comparison Curves](images/modelcomparison.png)
 
 > **Analysis**: While the Custom CNN exhibited higher peak accuracy metrics, its learning curves showed significant instability and signs of overfitting—essentially memorizing the training images. In contrast, the VGG16 model showed a stable and consistent learning progression, achieving a superior validation accuracy of ~78% even with a limited training duration of only 15 epochs. 
 
