@@ -67,8 +67,17 @@ Extended Training & Early Stopping: Retrain the VGG16 model for 50-100 epochs wi
 
 3. **Dataset Enhancement**: Expand the dataset with images captured directly on local Kenyan farms to expose the model to real-world variables like variable lighting, shadows, and different soil types.
 
+## Pre-trained Models
+Due to the large file sizes of the deep learning architectures, the trained `.keras` model files are hosted externally. 
+
+You can download the models (Custom CNN and VGG16) from this Google Drive folder:
+👉 **[Download Trained Models Here](https://drive.google.com/drive/folders/1nHIiaAvNoTnuCk0ZTb0bVwlhxGff2xoj?usp=sharing)**
+
+*Once downloaded, place the `.keras` files into the `models/` directory of this repository to run the inference scripts.*
+
+
 Author: Hammilton Nyamache
 
 Department: Electrical and Electronic Engineering
 
-Institution: Dedan Kimathi University of Technology
+Institution: Dedan Kimathi University of Technology   
